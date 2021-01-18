@@ -1,0 +1,26 @@
+{
+  "name": "mierlaesefulmeu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mierla",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "custom-discord-jokes": "^1.0.3",
+    "discord-giveaways": "^4.4.3",
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.2.7",
+    "mathjs": "^9.0.0",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.1",
+    "random-puppy": "^1.1.0",
+    "weather-js": "^2.0.0",
+    "weather.js": "^0.1.0",
+    "yt-search": "^2.5.2",
+    "ytdl-core": "^4.4.3"
+  }
+}
