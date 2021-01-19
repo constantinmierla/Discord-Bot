@@ -20,6 +20,8 @@ for (const file of commandFiles)
 
 client.on('ready', () => {
     console.log('mierlaesefulmeu is online!');
+    client.user.setActivity('Bosanci',{ type: "WATCHING" }).catch(console.error)
+      
 });
 
 
