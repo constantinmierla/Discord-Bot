@@ -1,7 +1,7 @@
 module.exports = {
     name: 'vineri',
     description: "orar",
-    execute(message, args)
+    execute(client, message, args)
     {
       message.channel.send('Fizica, Engleza, Mate, Sport, Mate, Bio');
     }

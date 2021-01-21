@@ -6,7 +6,7 @@ module.exports = {
     name: "vremea",
     description: "Checks a weather forecast",
 
-    async run (client, message, args){
+    async execute (client, message, args){
 
     weather.find({search: args.join(" "), degreeType: 'C'}, function (error, result){
         if(error) return message.channel.send(error);
