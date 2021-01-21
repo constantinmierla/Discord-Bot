@@ -6,7 +6,7 @@ module.exports = {
     name: "covid",
     description: "Track a country or worldwide COVID-19 cases",
 
-    async run (client, message, args){
+    async execute (client, message, args){
 
         let countries = args.join(" ");
 
