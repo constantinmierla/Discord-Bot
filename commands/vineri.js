@@ -3,6 +3,6 @@ module.exports = {
     description: "orar",
     execute(client, message, args)
     {
-      message.channel.send('Fizica, Engleza, Mate, Sport, Mate, Bio');
+      message.channel.send('Fizica, Istorie, Mate, Eng, Bio, Mate');
     }
 }
