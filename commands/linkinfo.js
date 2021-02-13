@@ -1,7 +1,7 @@
 module.exports = {
     name: 'linkinfo',
     description: "trimite link ul",
-    execute(client, message, args)
+    execute(message, args, cmd, client, Discord)
     {
       message.channel.send('https://meet.google.com/mvt-dpxt-ifd');
     }
