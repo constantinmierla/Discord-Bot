@@ -7,5 +7,10 @@ module.exports = (Discord, client, message) => {
 
     const command = client.commands.get(cmd);
 
-    if(command) command.execute(client, message, args, Discord);
+    try {
+        command.execute(message, args, cmd, client, Discord);
+    } catch (err) {
+        message.reply("Eroare");
+        console.log(err);
+    }
 }
