@@ -5,7 +5,7 @@ module.exports = {
     name: "ping",
     description: "test command",
 
-    async execute (client, message, args) {
+    async execute (message, args, cmd, client, Discord) {
 
 
         const ping = new Discord.MessageEmbed()
