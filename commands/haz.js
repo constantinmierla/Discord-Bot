@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const customDiscordJokes = require('custom-discord-jokes');
 module.exports = {
     name: 'haz',
-    execute(client, message, args){
+    execute(message, args, cmd, client, Discord){
 // To get a random dad joke
 customDiscordJokes.getRandomDadJoke (function(joke) {
    message.channel.send(joke)
