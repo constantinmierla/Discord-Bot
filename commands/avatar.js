@@ -4,7 +4,7 @@ module.exports = {
     name: "avatar",
     description: "Brodcast someone's avatar",
 
-    async execute (client, message, args) {
+    async execute (message, args, cmd, client, Discord) {
 
         let member = message.mentions.users.first() || message.author
 
