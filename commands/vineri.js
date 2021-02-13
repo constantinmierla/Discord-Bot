@@ -1,7 +1,7 @@
 module.exports = {
     name: 'vineri',
     description: "orar",
-    execute(client, message, args)
+    execute(message, args, cmd, client, Discord)
     {
       message.channel.send('Fizica, Istorie, Mate, Eng, Bio, Mate');
     }
