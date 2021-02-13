@@ -1,7 +1,7 @@
 module.exports = {
     name: 'leave',
     description: 'opreste stiinta',
-    async execute(client, message, args)
+    async execute(message, args, cmd, client, Discord)
     {
         const voiceChannel = message.member.voice.channel;
 
