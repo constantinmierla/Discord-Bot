@@ -10,7 +10,7 @@ module.exports = (Discord, client, message) => {
     try {
         command.execute(message, args, cmd, client, Discord);
     } catch (err) {
-        message.reply("Eroare");
+        message.reply("muie");
         console.log(err);
     }
 }
